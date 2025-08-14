@@ -26,7 +26,6 @@ Upload a PDF, process it, and start asking AI-powered questions about the conten
 
 **Backend:**
 - Node.js / Express
-- Multer (for PDF upload handling)
 - OpenAI API (Embeddings + Chat)
 - Local storage/session handling
 
