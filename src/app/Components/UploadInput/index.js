@@ -2,8 +2,11 @@
 import React, { useState } from "react";
 import { Upload } from "lucide-react";
 import UploadingProgressModal from "../UploadingProgressModal";
-import NoteBookLM from "../NoteBookLM";
 import { upload } from "@/app/apiServices";
+import dynamic from "next/dynamic";
+const NoteBookLM = dynamic(() => import('../NoteBookLM'), {
+  ssr: false,
+});
 
 export default function UploadInput() {
     const [loading, setLoading] = useState(false);
