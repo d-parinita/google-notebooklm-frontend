@@ -60,9 +60,9 @@ export default function NoteBookLM({ sessionId, fileUrl }) {
               You can now ask questions about your document. For example:
             </p>
             <ul className="list-disc pl-5 text-sm mt-1 font-medium text-purple-700 space-y-1">
-              <li>"What is the main topic of this document?"</li>
-              <li>"Can you summarize the key points?"</li>
-              <li>"What are the conclusions or recommendations?"</li>
+              <li>&quot;What is the main topic of this document?&quot;</li>
+              <li>&quot;Can you summarize the key points?&quot;</li>
+              <li>&quot;What are the conclusions or recommendations?&quot;</li>
             </ul>
           </div>
 
